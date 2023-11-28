@@ -1,0 +1,350 @@
+@charset "UTF-8";
+html {
+  scroll-padding-top: 4.5rem;
+}
+
+body {
+  position: relative;
+}
+
+
+.page-section {
+  padding: 6rem 0;
+}
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+  color: #4A8B71;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+  color:#4A8B71;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+  color: #4B4B4B;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 22.8px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 9rem 0;
+  }
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#mainNav .navbar-brand {
+  color: #ffc800;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+  height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ffc800;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 2rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand svg,
+  #mainNav.navbar-shrink .navbar-brand img {
+    height: 1.5rem;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/ido-agriculture-fond-riziere.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.background-image {
+  height: 602px; /* Hauteur de votre image de fond */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Couleur du texte */
+  text-align: center;
+}
+
+
+.image-container {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 95%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-overlay h5 {
+  margin-bottom: 0;
+  text-align: justify;
+  float: left;
+}
+
+.icon {
+  font-size: 20px;
+}
+.para{
+height: 114px;
+color: #FFFFFF;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+letter-spacing: 0;
+line-height: 22.8px;
+text-align: center;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  color: #4A8B71;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+}
+
+
+.paragraph{
+  color: #4B4B4B;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 22.8px;
+}
+
+.btn-decovrez{
+  box-sizing: border-box;
+  height: 57.6px;
+  width: 206.1px;
+  border: 1.8px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 28.8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.32px;
+  line-height: 24px;
+  text-align: center;
+}
+.statistiques{
+  height: 38px;
+  width: 116px;
+  color: #4A8B71;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.statistic-icon{
+  max-width: 72px;
+  height: auto;
+}
+
+.number{
+  height: 58px;
+  width: 88px;
+  color: #4A8B71;
+  font-family: Roboto;
+  font-size: 49.18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 58px;
+  text-align: center;
+}
+
+.custom{
+  /* Styles pour chaque élément du menu */
+  background-color: #F1CF69;
+  height: 41px;
+  width: 130px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+.nav-item .custom  a .nav{
+color: #31475E;
+font-family: 'Open Sans', sans-serif;font-size: 16px;
+font-weight: 600;
+letter-spacing: 0;
+line-height: 22px;
+text-align: center;
+
+}
+
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.image-gallery img {
+  width: 250px;
+  height: 313px;
+}
+
+#page-top .nav-item .nav-link{
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 17px;
+  text-align: center;
+}
+
+.title-with-line {
+  position: relative;
+}
+
+.title-with-line::after {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 42px;
+  border-radius: 40px;
+  background-color: #F1CF69;
+  position: absolute;
+  top: -15px; /* Ajustez selon votre préférence */
+  left: 0;
+}
+
+.title-with-line-above {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px; /* Espace sous chaque titre */
+}
+
+.title-with-line-above::before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 42px;
+  border-radius: 40px;
+  background-color: #F1CF69;
+  position: absolute;
+  top: -15px; /* Ajustement pour le positionnement */
+  left: 50%;
+  transform: translateX(-50%);
+}
